@@ -130,6 +130,7 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
 .stats{ background:var(--deep); color:var(--deep-ink); padding:56px 0; }
 .stats ul{ list-style:none; display:grid; gap:28px; }
 .stats b{ display:block; font-family:var(--display); font-weight:500; font-size:clamp(2.4rem, 7vw, 3.4rem); line-height:1; letter-spacing:.01em; font-variant-numeric:lining-nums; }
+.stats em{ display:block; font-style:normal; font-size:.82rem; letter-spacing:.06em; color:var(--deep-soft); margin-bottom:10px; }
 .stats span{ display:block; margin-top:10px; color:var(--deep-soft); font-size:.94rem; }
 @media (min-width:768px){ .stats ul{ grid-template-columns:repeat(3, minmax(0,1fr)); } }
 
@@ -157,7 +158,7 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
 @media (min-width:900px){ .care{ grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); gap:40px; align-items:center; padding:32px 34px; } }
 
 /* 가격 */
-.price{ list-style:none; margin-top:40px; border-top:1px solid var(--ink); display:grid; }
+.price{ list-style:none; margin-top:40px; border-top:1px solid var(--ink); display:grid; grid-template-columns:minmax(0,1fr); }
 .price li{ display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:16px 2px; border-bottom:1px solid var(--line); }
 .price li span{ min-width:0; }
 .price li b{ font-weight:600; white-space:nowrap; font-variant-numeric:tabular-nums; }
@@ -243,7 +244,7 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
       <div>
         <img class="hero-mono reveal" src="ak-mono.svg" alt="" width="97" height="152" />
         <span class="en reveal">Aki Waxing · Cheonan</span>
-        <h1 class="reveal">저자극 · 저통증 프라이빗 왁싱,<br />당신만을 위한 맞춤 케어</h1>
+        <h1 class="reveal">저자극 · 저통증 <span class="nw">프라이빗 왁싱,</span><br />당신만을 위한 맞춤 케어</h1>
         <p class="sub reveal">브라질리언왁싱(여성), 바디왁싱, 페이스왁싱 등 1:1 원장 맞춤 시술 왁싱 전문샵입니다</p>
         <ul class="facts reveal">
           <li><b>월 - 금</b> <span class="nw">10:00 - 22:00</span></li>
@@ -284,9 +285,9 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
   <section class="stats" aria-label="아키왁싱 숫자">
     <div class="wrap">
       <ul>
-        <li class="reveal"><b>20,000+</b><span>대형왁싱샵 20,000건 이상 시술</span></li>
-        <li class="reveal"><b>1 : 1</b><span>1:1 프라이빗 시술 운영</span></li>
-        <li class="reveal"><b>100%</b><span>100% 예약제 운영,당일예약가능</span></li>
+        <li class="reveal"><em>원장 경력</em><b>20,000+</b><span>대형왁싱샵 20,000건 이상 시술</span></li>
+        <li class="reveal"><em>시술 방식</em><b>1 : 1</b><span>1:1 프라이빗 시술 운영</span></li>
+        <li class="reveal"><em>예약</em><b>100%</b><span>100% 예약제 운영,당일예약가능</span></li>
       </ul>
     </div>
   </section>
@@ -314,14 +315,14 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
       <h2 id="service-h" class="reveal">브라질리언,페이스,바디 1:1 맞춤 시술</h2>
       <div class="svc">
         <article class="reveal"><span class="en">Brazilian</span><h3>여성 브라질리언</h3><p>주기적인 관리로 더욱 깔끔하고 산뜻하게!</p></article>
-        <article class="reveal"><span class="en">Brow</span><h3>눈썹 왁싱</h3><p>깔끔한 눈썹 라인으로 더욱 단정하고 또렷한 인상을 만들어 보세요 :)</p></article>
+        <article class="reveal"><span class="en">Brow</span><h3>눈썹 왁싱</h3><p>깔끔한 눈썹 라인으로 더욱 단정하고 또렷한 인상을 만들어 <span class="nw">보세요 :)</span></p></article>
         <article class="reveal"><span class="en">Hairline</span><h3>헤어라인 · 인중</h3><p>헤어라인만 정리해도 얼굴선이 한층 깔끔하게</p></article>
-        <article class="reveal"><span class="en">Body</span><h3>겨드랑이 · 다리 · 팔</h3><p>깔끔함의 차이가 확실한 겨드랑이 왁싱</p></article>
+        <article class="reveal"><span class="en">Body</span><h3>겨드랑이 · <span class="nw">다리 · 팔</span></h3><p>일상 속에서도 보들보들 매끈한 다리 피부를 원한다면?</p></article>
         <article class="reveal"><span class="en">Men</span><h3>남성 왁싱</h3><p>남성 왁싱도 편안하게 1:1 맞춤 시술</p></article>
         <article class="reveal"><span class="en">Wedding</span><h3>웨딩 · 임산부</h3><p>깔끔하고 여리여리한 느낌을 주는 웨딩 관리에 필수 뒷목왁싱</p></article>
       </div>
       <div class="care reveal">
-        <b>인그로운 · 모공각화증 관리</b>
+        <b>인그로운 케어</b>
         <div>
           <p>인그로운,모공각화증 비건제품으로 올인원관리크림도 왁싱 후 발라드리며 판매하고 있습니다</p>
           <p class="note" style="margin-top:8px">왁싱 진행 시 인그로운케어는 추가비용없이 해드리고있습니다</p>
@@ -335,15 +336,15 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
       <span class="en reveal">Price</span>
       <h2 id="price-h" class="reveal">대표 시술 가격</h2>
       <ul class="price reveal">
-        <li><span>첫방문여성브라질리언(적립금사용시)</span><b>49,500원</b></li>
-        <li><span>재방문여성브라질리언(적립금적용시)</span><b>54,000원</b></li>
-        <li><span>임산부브라질리언(적립금적용시)</span><b>54,000원</b></li>
+        <li><span>첫방문여성브라질리언<span class="nw">(적립금사용시)</span></span><b>49,500원</b></li>
+        <li><span>재방문여성브라질리언<span class="nw">(적립금적용시)</span></span><b>54,000원</b></li>
+        <li><span>임산부브라질리언<span class="nw">(적립금적용시)</span></span><b>54,000원</b></li>
         <li><span>여성디자인눈썹+인중왁싱 이벤트</span><b>38,000원</b></li>
         <li><span>여성헤어라인+이마왁싱 이벤트</span><b>33,000원</b></li>
-        <li><span>여성눈썹왁싱(적립금적용시)</span><b>27,000원</b></li>
-        <li><span>남성눈썹왁싱(적립금적용시)</span><b>31,500원</b></li>
-        <li><span>여성물광풀페이스+진정팩(적립금적용시)</span><b>108,000원</b></li>
-        <li><span>남성하관세트+진정팩(적립금적용시)</span><b>81,000원</b></li>
+        <li><span>여성눈썹왁싱<span class="nw">(적립금적용시)</span></span><b>27,000원</b></li>
+        <li><span>남성눈썹왁싱<span class="nw">(적립금적용시)</span></span><b>31,500원</b></li>
+        <li><span>여성물광풀페이스+진정팩<span class="nw">(적립금적용시)</span></span><b>108,000원</b></li>
+        <li><span>남성하관세트+진정팩<span class="nw">(적립금적용시)</span></span><b>81,000원</b></li>
         <li><span>아키인그로운케어크림</span><b>30,000원</b></li>
       </ul>
       <p class="price-note reveal">네이버 예약에 올라온 가격 중 일부예요. 전체 가격과 회차권, 진행 중인 이벤트는 <a href="https://m.place.naver.com/place/2076149332/home" target="_blank" rel="noopener">네이버 예약</a>에서 확인해 주세요.</p>
