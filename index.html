@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>아키왁싱 AKI WAXING | 천안 두정동 왁싱 전문샵</title>
+<meta name="description" content="천안 두정동 아키왁싱. 브라질리언왁싱(여성), 바디왁싱, 페이스왁싱 등 1:1 원장 맞춤 시술 왁싱 전문샵. 100% 예약제 운영, 건물 앞 주차가능. 충남 천안시 서북구 오성1길 12-11 1층 102호." />
+<link rel="canonical" href="https://akiwaxing-sample.lgt3232.workers.dev/" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:site_name" content="아키왁싱 AKI WAXING" />
+<meta property="og:title" content="아키왁싱 · 저자극 · 저통증 프라이빗 왁싱" />
+<meta property="og:description" content="천안 두정동 1:1 원장 맞춤 시술 왁싱 전문샵. 100% 예약제 운영, 당일예약가능." />
+<meta property="og:url" content="https://akiwaxing-sample.lgt3232.workers.dev/" />
+<meta property="og:image" content="https://akiwaxing-sample.lgt3232.workers.dev/og-ak.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="theme-color" content="#F6F2EA" />
+<link rel="icon" href="favicon.png" type="image/png" />
+<!-- 시안 도메인 = akiwaxing-sample.lgt3232.workers.dev. 고객 인계 시 grep lgt3232 → canonical·og:url·og:image·JSON-LD url/image 치환 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "아키왁싱 천안본점",
+  "url": "https://akiwaxing-sample.lgt3232.workers.dev/",
+  "image": "https://akiwaxing-sample.lgt3232.workers.dev/og-ak.jpg",
+  "telephone": "+82-507-1310-2672",
+  "address": { "@type": "PostalAddress", "streetAddress": "오성1길 12-11 1층 102호", "addressLocality": "천안시 서북구", "addressRegion": "충청남도", "addressCountry": "KR" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "22:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "10:00", "closes": "15:00" }
+  ],
+  "sameAs": ["https://www.instagram.com/aki_waxing/", "https://m.place.naver.com/place/2076149332/home", "https://blog.naver.com/akiwaxing"]
+}
+</script>
+<style>
+@font-face{ font-family:"AK Display"; font-weight:400 600; font-display:swap; src:url("ak-cormorant.woff2") format("woff2"); }
+@font-face{ font-family:"AK KSerif"; font-weight:400 600; font-display:swap; src:url("ak-notoserif.woff2") format("woff2"); }
+@font-face{ font-family:"AK Sans"; font-weight:400 600; font-display:swap; src:url("ak-pretendard.woff2") format("woff2"); }
+
+/* 아이보리 베이스 + 전문성(사장님 요청). 아이보리 · 잉크 · 토프 라벨 · 짙은 토프 띠 하나 */
+:root{
+  --paper:#F6F2EA;
+  --paper2:#EFE8DC;
+  --card:#FBF8F2;
+  --ink:#2B2724;
+  --soft:#6B635B;
+  --line:#E0D7C8;
+  --taupe:#6E5A48;
+  --deep:#3B3430;
+  --deep-ink:#F6F2EA;
+  --deep-soft:#D9CBB8;
+  --r:2px;
+  --display:"AK Display","AK KSerif","AK Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --kserif:"AK KSerif","AK Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --sans:"AK Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{ box-sizing:border-box; margin:0; padding:0; }
+html{ scroll-behavior:smooth; scroll-padding-top:110px; -webkit-text-size-adjust:100%; }
+body{ font-family:var(--sans); color:var(--ink); background:var(--paper); line-height:1.75; font-size:16px; -webkit-font-smoothing:antialiased; word-break:keep-all; overflow-wrap:break-word; }
+img{ max-width:100%; height:auto; display:block; }
+a{ color:inherit; }
+:focus-visible{ outline:2px solid var(--ink); outline-offset:3px; }
+.wrap{ width:min(100% - 40px, 1120px); margin-inline:auto; }
+.nw{ white-space:nowrap; }
+
+/* 헤더 */
+.top{ position:sticky; top:0; z-index:50; background:#F6F2EA; border-bottom:1px solid var(--line); }
+.top .bar{ display:flex; align-items:center; justify-content:space-between; gap:16px; height:64px; }
+.brand{ display:flex; align-items:center; gap:10px; text-decoration:none; }
+.brand img{ width:22px; height:auto; }
+.brand span{ font-family:var(--display); font-weight:500; font-size:1.02rem; letter-spacing:.26em; }
+.nav{ display:none; gap:26px; font-size:.9rem; font-weight:500; }
+.nav a{ text-decoration:none; color:var(--soft); }
+.top .btn{ min-height:40px; padding:0 16px; font-size:.86rem; }
+.snav{ display:flex; gap:2px; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; border-top:1px solid var(--line); padding:0 12px; }
+.snav::-webkit-scrollbar{ display:none; }
+.snav a{ flex:0 0 auto; display:flex; align-items:center; min-height:42px; padding:0 10px; font-size:.88rem; text-decoration:none; color:var(--soft); white-space:nowrap; }
+@media (min-width:900px){ .nav{ display:flex; } .snav{ display:none; } html{ scroll-padding-top:72px; } }
+@media (max-width:899px){ .top .btn{ display:none; } }
+@media (hover:hover){ .nav a:hover, .snav a:hover{ color:var(--ink); } }
+
+/* 버튼 */
+.btn{ display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:48px; padding:0 22px; border:1px solid var(--ink); border-radius:var(--r); text-decoration:none; font-weight:600; font-size:.94rem; background:transparent; color:var(--ink); transition:background-color .2s, color .2s, transform .1s; }
+.btn.ink{ background:var(--ink); color:var(--paper); }
+.btn:active{ transform:scale(.98); }
+@media (hover:hover){ .btn:hover{ background:var(--ink); color:var(--paper); } .btn.ink:hover{ background:var(--taupe); border-color:var(--taupe); } }
+
+/* 공통 */
+.sec{ padding:96px 0; }
+.sec.alt{ background:var(--paper2); }
+.en{ display:block; font-family:var(--display); font-weight:500; font-size:1rem; letter-spacing:.2em; text-transform:uppercase; color:var(--taupe); }
+h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 2.2rem); line-height:1.4; letter-spacing:-.02em; margin-top:12px; }
+.lead{ color:var(--soft); margin-top:14px; max-width:38em; }
+
+/* 히어로 */
+.hero{ padding:40px 0 88px; }
+.hero-grid{ display:grid; gap:36px; }
+.hero-mono{ width:54px; height:auto; }
+.hero .en{ margin-top:26px; }
+.hero h1{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.7rem, 5.2vw, 2.6rem); line-height:1.42; letter-spacing:-.025em; margin-top:14px; }
+.hero .sub{ color:var(--soft); margin-top:16px; max-width:30em; }
+.facts{ display:flex; flex-wrap:wrap; gap:6px 18px; margin-top:22px; list-style:none; font-size:.94rem; color:var(--soft); }
+.facts b{ color:var(--ink); font-weight:600; }
+.cta3{ display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:10px; margin-top:28px; }
+.cta3 .btn:first-child{ grid-column:1 / -1; }
+.hero-photo{ position:relative; aspect-ratio:4/5; overflow:hidden; border-radius:var(--r); }
+.hero-photo img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+@media (max-width:359px){ .cta3 .btn{ font-size:.86rem; padding:0 12px; } .cta3 .btn:last-child{ grid-column:1 / -1; } }
+@media (min-width:640px){ .cta3{ display:flex; flex-wrap:wrap; } }
+@media (min-width:900px){ .hero{ padding:56px 0 104px; } .hero-grid{ grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); gap:72px; align-items:center; } }
+
+/* 소개 */
+.about-grid{ display:grid; gap:36px; margin-top:8px; }
+.about-text p{ font-size:1.02rem; line-height:1.95; }
+.about-text p + p{ margin-top:14px; }
+.about-text .sign{ display:block; margin-top:18px; font-size:.9rem; color:var(--soft); }
+.meaning{ border-top:1px solid var(--ink); padding-top:22px; }
+.meaning .word{ font-family:var(--display); font-weight:500; font-size:clamp(1.6rem, 4.6vw, 2.2rem); line-height:1.2; letter-spacing:.02em; }
+.meaning p{ color:var(--soft); margin-top:12px; }
+@media (min-width:900px){ .about-grid{ grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); gap:72px; align-items:start; } }
+
+/* 숫자 띠 */
+.stats{ background:var(--deep); color:var(--deep-ink); padding:56px 0; }
+.stats ul{ list-style:none; display:grid; gap:28px; }
+.stats b{ display:block; font-family:var(--display); font-weight:500; font-size:clamp(2.4rem, 7vw, 3.4rem); line-height:1; letter-spacing:.01em; font-variant-numeric:lining-nums; }
+.stats span{ display:block; margin-top:10px; color:var(--deep-soft); font-size:.94rem; }
+@media (min-width:768px){ .stats ul{ grid-template-columns:repeat(3, minmax(0,1fr)); } }
+
+/* 원칙 */
+.prin-grid{ display:grid; gap:36px; margin-top:40px; }
+.prin{ list-style:none; display:grid; gap:0; border-top:1px solid var(--ink); }
+.prin li{ display:grid; grid-template-columns:44px minmax(0,1fr); gap:12px; padding:18px 2px; border-bottom:1px solid var(--line); }
+.prin li i{ font-style:normal; font-family:var(--display); font-weight:500; font-size:1.05rem; color:var(--taupe); font-variant-numeric:lining-nums; }
+.prin li b{ font-weight:600; }
+.prin-photo{ aspect-ratio:4/5; overflow:hidden; border-radius:var(--r); }
+.prin-photo img{ width:100%; height:100%; object-fit:cover; }
+@media (min-width:900px){ .prin-grid{ grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr); gap:64px; align-items:start; } }
+
+/* 시술 */
+.svc{ display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:12px; margin-top:40px; }
+.svc article{ background:var(--card); border:1px solid var(--line); border-radius:var(--r); padding:22px 18px 24px; }
+.svc .en{ font-size:.86rem; letter-spacing:.16em; }
+.svc h3{ font-family:var(--kserif); font-weight:500; font-size:1.12rem; margin-top:6px; }
+.svc p{ color:var(--soft); font-size:.92rem; margin-top:8px; line-height:1.7; }
+@media (min-width:900px){ .svc{ grid-template-columns:repeat(3, minmax(0,1fr)); gap:16px; } .svc article{ padding:28px 26px 30px; } }
+.care{ margin-top:28px; display:grid; gap:18px; padding:26px 22px; border:1px solid var(--ink); border-radius:var(--r); }
+.care b{ font-family:var(--kserif); font-weight:500; font-size:1.12rem; }
+.care p{ color:var(--soft); font-size:.95rem; }
+.care .note{ color:var(--ink); font-weight:500; }
+@media (min-width:900px){ .care{ grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); gap:40px; align-items:center; padding:32px 34px; } }
+
+/* 가격 */
+.price{ list-style:none; margin-top:40px; border-top:1px solid var(--ink); display:grid; }
+.price li{ display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:16px 2px; border-bottom:1px solid var(--line); }
+.price li span{ min-width:0; }
+.price li b{ font-weight:600; white-space:nowrap; font-variant-numeric:tabular-nums; }
+.price small{ display:block; color:var(--soft); font-size:.84rem; margin-top:2px; }
+@media (min-width:900px){ .price{ grid-template-columns:repeat(2, minmax(0,1fr)); column-gap:56px; } }
+.price-note{ margin-top:22px; color:var(--soft); font-size:.92rem; }
+.price-note a{ color:var(--ink); text-underline-offset:3px; }
+
+/* 전후 */
+.ba{ display:grid; gap:28px; margin-top:40px; }
+.ba figure{ margin:0; }
+.ba .ph{ aspect-ratio:3/2; overflow:hidden; border-radius:var(--r); background:var(--paper2); }
+.ba img{ width:100%; height:100%; object-fit:cover; }
+.ba .lab{ display:flex; justify-content:space-between; margin-top:8px; font-family:var(--display); font-weight:500; font-size:.9rem; letter-spacing:.16em; color:var(--taupe); }
+.ba figcaption{ margin-top:6px; font-size:.94rem; }
+.ba figcaption b{ font-weight:600; margin-right:6px; }
+.ba figcaption span{ color:var(--soft); }
+@media (min-width:900px){ .ba{ grid-template-columns:repeat(3, minmax(0,1fr)); gap:22px; } }
+.ba-note{ margin-top:22px; color:var(--soft); font-size:.88rem; }
+
+/* 오시는 길 */
+.visit-grid{ display:grid; gap:28px; margin-top:40px; }
+.info{ border-top:1px solid var(--ink); }
+.info > div{ display:grid; grid-template-columns:84px minmax(0,1fr); gap:14px; padding:16px 0; border-bottom:1px solid var(--line); }
+.info dt{ font-weight:600; color:var(--taupe); font-size:.92rem; padding-top:1px; }
+.info dd small{ display:block; color:var(--soft); font-size:.88rem; margin-top:3px; }
+.info dd ul{ list-style:none; }
+.info a{ text-decoration:underline; text-underline-offset:3px; }
+.visit .cta{ display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:10px; margin-top:22px; }
+.visit .cta .btn:first-child{ grid-column:1 / -1; }
+.map{ width:100%; height:260px; border:0; border-radius:var(--r); background:#E6E0D6; display:block; }
+@media (min-width:768px){ .visit .cta{ display:flex; flex-wrap:wrap; } .map{ height:380px; } }
+@media (min-width:1000px){ .visit-grid{ grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:48px; } }
+
+/* 푸터 */
+.foot{ background:var(--paper2); border-top:1px solid var(--line); padding:52px 0 120px; font-size:.9rem; color:var(--soft); }
+.foot .brand{ text-decoration:none; }
+.foot .brand span{ color:var(--ink); }
+.foot p{ margin-top:14px; }
+.foot p + p{ margin-top:6px; }
+.foot a{ color:var(--ink); text-decoration:underline; text-underline-offset:3px; }
+@media (min-width:900px){ .foot{ padding-bottom:52px; } }
+
+/* 하단 바: 네이버 예약 · 카카오채널 · 전화 (PC 메인 CTA와 같은 채널) */
+.quick{ position:fixed; left:0; right:0; bottom:0; z-index:60; display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:6px; padding:8px 10px calc(8px + env(safe-area-inset-bottom)); background:var(--card); border-top:1px solid var(--line); }
+.quick a{ display:flex; align-items:center; justify-content:center; min-height:48px; border:1px solid var(--ink); border-radius:var(--r); font-size:.86rem; font-weight:600; text-decoration:none; text-align:center; }
+.quick a.ink{ background:var(--ink); color:var(--paper); }
+@media (min-width:900px){ .quick{ display:none; } }
+
+/* 나타나기 (모션 강제 재생 · 다올 방침) */
+.js .reveal{ opacity:0; transform:translateY(16px); transition:opacity .8s ease var(--d,0s), transform .8s ease var(--d,0s); }
+.js .reveal.in{ opacity:1; transform:none; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="아키왁싱 처음으로"><img src="ak-mono.svg" alt="" width="22" height="34" /><span>AKI WAXING</span></a>
+    <nav class="nav" aria-label="섹션">
+      <a href="#about">소개</a>
+      <a href="#principle">원칙</a>
+      <a href="#service">시술</a>
+      <a href="#price">가격</a>
+      <a href="#result">전후</a>
+      <a href="#visit">오시는 길</a>
+    </nav>
+    <a class="btn ink" href="https://m.place.naver.com/place/2076149332/home" target="_blank" rel="noopener">네이버 예약</a>
+  </div>
+  <nav class="snav" aria-label="섹션 바로가기">
+    <a href="#about">소개</a>
+    <a href="#principle">원칙</a>
+    <a href="#service">시술</a>
+    <a href="#price">가격</a>
+    <a href="#result">전후</a>
+    <a href="#visit">오시는 길</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <img class="hero-mono reveal" src="ak-mono.svg" alt="" width="97" height="152" />
+        <span class="en reveal">Aki Waxing · Cheonan</span>
+        <h1 class="reveal">저자극 · 저통증 프라이빗 왁싱,<br />당신만을 위한 맞춤 케어</h1>
+        <p class="sub reveal">브라질리언왁싱(여성), 바디왁싱, 페이스왁싱 등 1:1 원장 맞춤 시술 왁싱 전문샵입니다</p>
+        <ul class="facts reveal">
+          <li><b>월 - 금</b> <span class="nw">10:00 - 22:00</span></li>
+          <li><b>토 · 일</b> <span class="nw">10:00 - 15:00</span></li>
+          <li>100% 예약제 운영,당일예약가능</li>
+        </ul>
+        <div class="cta3 reveal">
+          <a class="btn ink" href="https://m.place.naver.com/place/2076149332/home" target="_blank" rel="noopener">네이버 예약</a>
+          <a class="btn" href="https://pf.kakao.com/_xoeJcn" target="_blank" rel="noopener">카카오채널 문의</a>
+          <a class="btn" href="tel:050713102672">전화 <span class="nw">0507-1310-2672</span></a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="ak-wax.webp" alt="워머 안에서 녹고 있는 하드 왁스와 스패출러" width="720" height="1280" fetchpriority="high" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="sec alt" id="about" aria-labelledby="about-h">
+    <div class="wrap about-grid">
+      <div class="about-text">
+        <span class="en reveal">About</span>
+        <h2 id="about-h" class="reveal">단순한 제모가 아닌,<br />피부를 이해하는 왁싱 &amp; 피부케어</h2>
+        <div class="reveal" style="margin-top:26px">
+          <p>안녕하세요 천안 두정동에 위치한 아키왁싱입니다:)</p>
+          <p>고객 한 분 한 분을 정성껏 케어하며 피부 상태에 맞춘 맞춤 디자인 / 맞춤 시술을 진행합니다</p>
+          <span class="sign">아키원장</span>
+        </div>
+      </div>
+      <div class="meaning reveal">
+        <span class="word">always keep innocence</span>
+        <p>아키왁싱은 (always keep innocence) 언제나 순수함을 지키는 마음으로 고객 한 분 한 분을 정성껏 케어합니다.단순한 제모가 아닌,피부를 이해하는 왁싱 &amp; 피부케어 전문샵으로 건강하고 깨끗한 피부를 만들어드립니다!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="아키왁싱 숫자">
+    <div class="wrap">
+      <ul>
+        <li class="reveal"><b>20,000+</b><span>대형왁싱샵 20,000건 이상 시술</span></li>
+        <li class="reveal"><b>1 : 1</b><span>1:1 프라이빗 시술 운영</span></li>
+        <li class="reveal"><b>100%</b><span>100% 예약제 운영,당일예약가능</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="principle" aria-labelledby="principle-h">
+    <div class="wrap">
+      <span class="en reveal">Principle</span>
+      <h2 id="principle-h" class="reveal">아키왁싱이 지키는 원칙</h2>
+      <div class="prin-grid">
+        <ol class="prin reveal">
+          <li><i>01</i><div><b>고객 맞춤 디자인 / 피부 맞춤 시술</b></div></li>
+          <li><i>02</i><div><b>1회용 제품 및 가운 ,노 더블딥 원칙 준수</b></div></li>
+          <li><i>03</i><div><b>호주 최고급 명품 라이콘 왁스 사용</b></div></li>
+          <li><i>04</i><div><b>저자극,저통증 왁싱전문샵</b></div></li>
+          <li><i>05</i><div><b>1:1 프라이빗 시술 운영</b></div></li>
+          <li><i>06</i><div><b>건물 앞 주차가능</b></div></li>
+        </ol>
+        <figure class="prin-photo reveal"><img src="ak-glove.webp" alt="위생 장갑을 끼고 다리에 왁스를 바르는 시술 모습" width="640" height="1136" loading="lazy" /></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec alt" id="service" aria-labelledby="service-h">
+    <div class="wrap">
+      <span class="en reveal">Service</span>
+      <h2 id="service-h" class="reveal">브라질리언,페이스,바디 1:1 맞춤 시술</h2>
+      <div class="svc">
+        <article class="reveal"><span class="en">Brazilian</span><h3>여성 브라질리언</h3><p>주기적인 관리로 더욱 깔끔하고 산뜻하게!</p></article>
+        <article class="reveal"><span class="en">Brow</span><h3>눈썹 왁싱</h3><p>깔끔한 눈썹 라인으로 더욱 단정하고 또렷한 인상을 만들어 보세요 :)</p></article>
+        <article class="reveal"><span class="en">Hairline</span><h3>헤어라인 · 인중</h3><p>헤어라인만 정리해도 얼굴선이 한층 깔끔하게</p></article>
+        <article class="reveal"><span class="en">Body</span><h3>겨드랑이 · 다리 · 팔</h3><p>깔끔함의 차이가 확실한 겨드랑이 왁싱</p></article>
+        <article class="reveal"><span class="en">Men</span><h3>남성 왁싱</h3><p>남성 왁싱도 편안하게 1:1 맞춤 시술</p></article>
+        <article class="reveal"><span class="en">Wedding</span><h3>웨딩 · 임산부</h3><p>깔끔하고 여리여리한 느낌을 주는 웨딩 관리에 필수 뒷목왁싱</p></article>
+      </div>
+      <div class="care reveal">
+        <b>인그로운 · 모공각화증 관리</b>
+        <div>
+          <p>인그로운,모공각화증 비건제품으로 올인원관리크림도 왁싱 후 발라드리며 판매하고 있습니다</p>
+          <p class="note" style="margin-top:8px">왁싱 진행 시 인그로운케어는 추가비용없이 해드리고있습니다</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="price" aria-labelledby="price-h">
+    <div class="wrap">
+      <span class="en reveal">Price</span>
+      <h2 id="price-h" class="reveal">대표 시술 가격</h2>
+      <ul class="price reveal">
+        <li><span>첫방문여성브라질리언(적립금사용시)</span><b>49,500원</b></li>
+        <li><span>재방문여성브라질리언(적립금적용시)</span><b>54,000원</b></li>
+        <li><span>임산부브라질리언(적립금적용시)</span><b>54,000원</b></li>
+        <li><span>여성디자인눈썹+인중왁싱 이벤트</span><b>38,000원</b></li>
+        <li><span>여성헤어라인+이마왁싱 이벤트</span><b>33,000원</b></li>
+        <li><span>여성눈썹왁싱(적립금적용시)</span><b>27,000원</b></li>
+        <li><span>남성눈썹왁싱(적립금적용시)</span><b>31,500원</b></li>
+        <li><span>여성물광풀페이스+진정팩(적립금적용시)</span><b>108,000원</b></li>
+        <li><span>남성하관세트+진정팩(적립금적용시)</span><b>81,000원</b></li>
+        <li><span>아키인그로운케어크림</span><b>30,000원</b></li>
+      </ul>
+      <p class="price-note reveal">네이버 예약에 올라온 가격 중 일부예요. 전체 가격과 회차권, 진행 중인 이벤트는 <a href="https://m.place.naver.com/place/2076149332/home" target="_blank" rel="noopener">네이버 예약</a>에서 확인해 주세요.</p>
+    </div>
+  </section>
+
+  <section class="sec alt" id="result" aria-labelledby="result-h">
+    <div class="wrap">
+      <span class="en reveal">Before &amp; After</span>
+      <h2 id="result-h" class="reveal">시술 전후</h2>
+      <div class="ba">
+        <figure class="reveal">
+          <div class="ph"><img src="ak-ba-arm.webp" alt="겨드랑이 왁싱 전과 후 비교" width="1000" height="657" loading="lazy" /></div>
+          <div class="lab"><span>Before</span><span>After</span></div>
+          <figcaption><b>여성 겨드랑이 왁싱</b><span>깔끔함의 차이가 확실한 겨드랑이 왁싱</span></figcaption>
+        </figure>
+        <figure class="reveal">
+          <div class="ph"><img src="ak-ba-leg.webp" alt="종아리 왁싱 전과 후 비교" width="1000" height="658" loading="lazy" /></div>
+          <div class="lab"><span>Before</span><span>After</span></div>
+          <figcaption><b>여성 종아리 왁싱</b><span>면도 말고 왁싱으로 관리하시는 분들은 다시 면도로 돌아갈 수 없어요~!!</span></figcaption>
+        </figure>
+        <figure class="reveal">
+          <div class="ph"><img src="ak-ba-forearm.webp" alt="팔 왁싱 전과 후 비교" width="1000" height="684" loading="lazy" /></div>
+          <div class="lab"><span>Before</span><span>After</span></div>
+          <figcaption><b>팔 왁싱</b></figcaption>
+        </figure>
+      </div>
+      <p class="ba-note reveal">아키왁싱 인스타그램에 올라온 실제 시술 사진이에요. 결과는 피부와 모질에 따라 다를 수 있어요.</p>
+    </div>
+  </section>
+
+  <section class="sec visit" id="visit" aria-labelledby="visit-h">
+    <div class="wrap">
+      <span class="en reveal">Visit</span>
+      <h2 id="visit-h" class="reveal">오시는 길</h2>
+      <div class="visit-grid">
+        <div class="reveal">
+          <dl class="info">
+            <div><dt>주소</dt><dd>충남 천안시 서북구 오성1길 <span class="nw">12-11</span> 1층 102호<small>건물 앞 주차가능</small></dd></div>
+            <div><dt>찾아가는 길</dt><dd><ul><li>두정역에서</li><li>-차량이용시 10분</li><li>-버스이용시 20분</li><li>81번,10번,14번, 두정대우5차아파트 하차 도보5분</li></ul></dd></div>
+            <div><dt>영업</dt><dd>월 - 금 <span class="nw">10:00 - 22:00</span><small>토 · 일 <span class="nw">10:00 - 15:00</span></small></dd></div>
+            <div><dt>예약</dt><dd>100% 예약제 운영,당일예약가능</dd></div>
+            <div><dt>전화</dt><dd><a href="tel:050713102672" class="nw">0507-1310-2672</a></dd></div>
+          </dl>
+          <div class="cta">
+            <a class="btn ink" href="https://m.place.naver.com/place/2076149332/home" target="_blank" rel="noopener">네이버 예약</a>
+            <a class="btn" href="https://map.naver.com/p/entry/place/2076149332" target="_blank" rel="noopener">네이버 길찾기</a>
+            <a class="btn" href="https://pf.kakao.com/_xoeJcn" target="_blank" rel="noopener">카카오채널</a>
+          </div>
+        </div>
+        <iframe class="map reveal" title="아키왁싱 위치 지도" src="https://maps.google.com/maps?q=%EC%B6%A9%EB%82%A8%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%98%A4%EC%84%B11%EA%B8%B8%2012-11&amp;z=17&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="아키왁싱 처음으로"><img src="ak-mono.svg" alt="" width="22" height="34" loading="lazy" /><span>AKI WAXING</span></a>
+    <p>아키왁싱 천안본점 · 충남 천안시 서북구 오성1길 <span class="nw">12-11</span> 1층 102호 · <a href="tel:050713102672" class="nw">0507-1310-2672</a></p>
+    <p><a href="https://www.instagram.com/aki_waxing/" target="_blank" rel="noopener">@aki_waxing</a> · <a href="https://blog.naver.com/akiwaxing" target="_blank" rel="noopener">블로그</a> · <a href="https://youtube.com/channel/UCtVVAr6Baelq-jeTlIRwdWA" target="_blank" rel="noopener">유튜브</a> · <a href="https://pf.kakao.com/_xoeJcn" target="_blank" rel="noopener">카카오채널</a></p>
+    <p>© AKI WAXING</p>
+  </div>
+</footer>
+
+<nav class="quick" aria-label="빠른 연결">
+  <a class="ink" href="https://m.place.naver.com/place/2076149332/home" target="_blank" rel="noopener">네이버 예약</a>
+  <a href="https://pf.kakao.com/_xoeJcn" target="_blank" rel="noopener">카카오채널</a>
+  <a href="tel:050713102672">전화</a>
+</nav>
+
+<script>
+(function(){
+  var pending=[].slice.call(document.querySelectorAll('.reveal'));
+  pending.forEach(function(el){
+    var sib=[].slice.call(el.parentNode.children).filter(function(c){ return c.classList.contains('reveal'); });
+    if(sib.length>1 && !el.style.getPropertyValue('--d')){ el.style.setProperty('--d',(Math.min(sib.indexOf(el),4)*0.06)+'s'); }
+  });
+  function showAll(){ pending.forEach(function(el){ el.classList.add('in'); }); pending=[]; }
+  function start(){
+    var t=setInterval(function(){
+      if(!pending.length){ clearInterval(t); return; }
+      if(window.innerHeight + window.pageYOffset >= document.documentElement.scrollHeight - 4){ showAll(); return; }
+      var line=window.innerHeight*0.92;
+      pending=pending.filter(function(el){
+        if(el.getBoundingClientRect().top < line){ el.classList.add('in'); return false; }
+        return true;
+      });
+    },120);
+  }
+  var started=false; function go(){ if(started) return; started=true; start(); }
+  if(document.fonts && document.fonts.ready){ document.fonts.ready.then(go); }
+  setTimeout(go,1200);
+  setTimeout(function(){ document.querySelectorAll('.hero .reveal').forEach(function(el){ el.classList.add('in'); }); },1600);
+})();
+</script>
+</body>
+</html>
