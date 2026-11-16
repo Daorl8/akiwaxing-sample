@@ -70,6 +70,7 @@ a{ color:inherit; }
 /* 헤더 */
 .top{ position:sticky; top:0; z-index:50; background:#F6F2EA; border-bottom:1px solid var(--line); }
 .top .bar{ display:flex; align-items:center; justify-content:space-between; gap:16px; height:64px; }
+@media (min-width:900px){ .top .bar{ display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); } .top .bar .btn{ justify-self:end; } }
 .brand{ display:flex; align-items:center; gap:10px; text-decoration:none; }
 .brand img{ width:22px; height:auto; }
 .brand span{ font-family:var(--display); font-weight:500; font-size:1.02rem; letter-spacing:.26em; }
@@ -78,6 +79,7 @@ a{ color:inherit; }
 .top .btn{ min-height:40px; padding:0 16px; font-size:.86rem; }
 .snav{ display:flex; gap:2px; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; border-top:1px solid var(--line); padding:0 12px; }
 .snav::-webkit-scrollbar{ display:none; }
+.snav a:first-child{ margin-left:auto; } .snav a:last-child{ margin-right:auto; } /* 화면에 다 들어가면 가운데, 넘치면 왼쪽부터 스크롤 */
 .snav a{ flex:0 0 auto; display:flex; align-items:center; min-height:42px; padding:0 10px; font-size:.88rem; text-decoration:none; color:var(--soft); white-space:nowrap; }
 @media (min-width:900px){ .nav{ display:flex; } .snav{ display:none; } html{ scroll-padding-top:72px; } }
 @media (max-width:899px){ .top .btn{ display:none; } }
@@ -118,6 +120,7 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
 .about-text p{ font-size:1.02rem; line-height:1.95; }
 .about-text p + p{ margin-top:14px; }
 .about-text .sign{ display:block; margin-top:18px; font-size:.9rem; color:var(--soft); }
+.about-text .yt{ margin-top:22px; }
 .meaning{ border-top:1px solid var(--ink); padding-top:22px; }
 .meaning .word{ font-family:var(--display); font-weight:500; font-size:clamp(1.6rem, 4.6vw, 2.2rem); line-height:1.2; letter-spacing:.02em; }
 .meaning p{ color:var(--soft); margin-top:12px; }
@@ -268,6 +271,7 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
           <p>안녕하세요 천안 두정동에 위치한 아키왁싱입니다:)</p>
           <p>고객 한 분 한 분을 정성껏 케어하며 피부 상태에 맞춘 맞춤 디자인 / 맞춤 시술을 진행합니다</p>
           <span class="sign">아키원장</span>
+          <a class="btn yt" href="https://youtube.com/channel/UCtVVAr6Baelq-jeTlIRwdWA" target="_blank" rel="noopener">유튜브 · 왁싱하는지은쌤</a>
         </div>
       </div>
       <div class="meaning reveal">
@@ -298,7 +302,6 @@ h2{ font-family:var(--kserif); font-weight:500; font-size:clamp(1.55rem, 4.4vw, 
           <li><i>03</i><div><b>호주 최고급 명품 라이콘 왁스 사용</b></div></li>
           <li><i>04</i><div><b>저자극,저통증 왁싱전문샵</b></div></li>
           <li><i>05</i><div><b>1:1 프라이빗 시술 운영</b></div></li>
-          <li><i>06</i><div><b>건물 앞 주차가능</b></div></li>
         </ol>
         <figure class="prin-photo reveal"><img src="ak-glove.webp" alt="위생 장갑을 끼고 다리에 왁스를 바르는 시술 모습" width="640" height="1136" loading="lazy" /></figure>
       </div>
